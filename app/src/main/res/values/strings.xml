@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OnlineVoting</string>
+    <string name="jashs">JASHS VOTING</string>
+    <string name="get_started">To get started</string>
+</resources>
