@@ -36,6 +36,26 @@
 
         </android.support.design.widget.AppBarLayout>
 
+        <TextView
+            android:id="@+id/tv_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30sp"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_countdowntxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Until start of voting"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:layout_marginBottom="10dp"/>
+
         <android.support.v7.widget.RecyclerView
             android:id="@+id/main_recycler_content"
             android:layout_width="match_parent"

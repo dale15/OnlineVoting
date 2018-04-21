@@ -16,7 +16,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitServiceGenerator {
 
-    public static final String API_BASE_URL = "http://pinasngayon.cdu.com.ph/";
+    public static final String API_BASE_URL = "http://jashs.xyz/";
 
     private static OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
 

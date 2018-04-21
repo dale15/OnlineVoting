@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="270dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    android:background="#000">
+    android:orientation="vertical">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/img_profile"
+        android:id="@+id/candidate_img"
         android:layout_width="130dp"
         android:layout_height="130dp"
         app:civ_border_width="2dp"
-        app:civ_border_color="#fff"
-        android:src="@color/colorAccent"
+        app:civ_border_color="#000"
+        android:src="@drawable/user"
         android:layout_gravity="center"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="30dp" />
 
     <TextView
-        android:id="@+id/txt_name"
+        android:id="@+id/tv_cand_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Juan Dela Cruz"
-        android:textColor="#fff"
+        android:textColor="#000"
         android:textSize="20sp"
         android:layout_gravity="center"
         android:layout_marginTop="5dp"/>
